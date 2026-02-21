@@ -49,7 +49,7 @@ const Index = () => {
           <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20 my-0 mx-0 px-0">
             <img
               alt="Vojtěch Bartoň"
-              className="w-full h-full object-cover object-top border-secondary-foreground border-0 border-solid rounded-md shadow opacity-80" src="/lovable-uploads/be687977-e974-4b14-8dbc-bbf03509c14f.png" />
+              className="w-full h-full object-cover object-top border-0 border-solid rounded-md shadow opacity-100 border-secondary-foreground" src="/lovable-uploads/be687977-e974-4b14-8dbc-bbf03509c14f.png" />
 
 
           </div>
