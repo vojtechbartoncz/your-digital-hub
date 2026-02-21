@@ -54,7 +54,7 @@ const Index = () => {
 
           </div>
           <div className="text-center">
-            <h1 className="tracking-tight text-4xl font-sans font-extrabold text-primary">
+            <h1 className="tracking-tight text-4xl font-sans font-extrabold text-secondary-foreground">
               Vojtěch Bartoň
             </h1>
             <p className="mt-1 text-secondary-foreground text-base font-mono font-extrabold">
@@ -135,7 +135,7 @@ const Index = () => {
         </div>
 
         {/* Footer */}
-        <p className="text-xs text-muted-foreground/60 tracking-wide">
+        <p className="text-xs tracking-wide text-secondary-foreground">
           © {new Date().getFullYear()} Vojtěch Bartoň
         </p>
       </div>
