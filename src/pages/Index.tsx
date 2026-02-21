@@ -42,23 +42,23 @@ const socials = [
 
 const Index = () => {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-background px-4 py-12">
+    <main className="min-h-screen flex items-center justify-center px-4 py-12 border-secondary-foreground bg-primary">
       <div className="w-full max-w-md flex flex-col items-center gap-8">
         {/* Profile */}
         <div className="flex flex-col items-center gap-4">
           <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20">
             <img
               alt="Vojtěch Bartoň"
-              className="w-full h-full object-cover object-top"
-              src="/lovable-uploads/cf567b53-7d19-4c40-b314-08e0b324664c.png"
-            />
+              className="w-full h-full object-cover object-top border-secondary-foreground border-0 border-solid rounded-md shadow opacity-80"
+              src="/lovable-uploads/cf567b53-7d19-4c40-b314-08e0b324664c.png" />
+
           </div>
           <div className="text-center">
-            <h1 className="text-2xl font-bold tracking-tight text-foreground">
+            <h1 className="tracking-tight text-4xl font-sans font-extrabold text-primary">
               Vojtěch Bartoň
             </h1>
-            <p className="text-sm text-muted-foreground mt-1">
-              Marketing · Komunikace · Prezentace
+            <p className="mt-1 text-secondary-foreground text-base font-mono font-extrabold">
+              Marketingová agentura · Komunita podnikatelů · Komunikační a prezentační dovednosti · Podcast       
             </p>
           </div>
         </div>
@@ -114,21 +114,21 @@ const Index = () => {
         </div>
 
         {/* Contact */}
-        <div className="w-full rounded-xl border-2 border-primary bg-primary/10 px-6 py-5 flex flex-col items-center gap-3">
-          <p className="text-base font-bold text-foreground text-center">
+        <div className="w-full rounded-xl bg-primary/10 px-6 py-5 flex flex-col items-center gap-3 border-2 border-solid border-secondary-foreground">
+          <p className="text-base font-bold text-foreground font-mono text-center">
             Kontaktujte mě přes e-mail nebo telefonní číslo
           </p>
           <a
             href="mailto:vojtechbarton2004@gmail.com"
-            className="flex items-center gap-2 text-base font-semibold text-primary hover:underline transition-colors"
-          >
+            className="flex items-center gap-2 text-base font-semibold hover:underline transition-colors text-secondary-foreground font-mono bg-primary">
+
             <Mail className="w-5 h-5" />
             vojtechbarton2004@gmail.com
           </a>
           <a
             href="tel:+420775133711"
-            className="flex items-center gap-2 text-base font-semibold text-primary hover:underline transition-colors"
-          >
+            className="flex items-center gap-2 text-base font-semibold hover:underline transition-colors text-secondary-foreground font-mono">
+
             <Phone className="w-5 h-5" />
             +420 775 133 711
           </a>
