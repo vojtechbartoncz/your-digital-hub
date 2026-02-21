@@ -114,19 +114,22 @@ const Index = () => {
         </div>
 
         {/* Contact */}
-        <div className="flex flex-col items-center gap-2 text-sm">
+        <div className="w-full rounded-xl border-2 border-primary bg-primary/10 px-6 py-5 flex flex-col items-center gap-3">
+          <p className="text-base font-bold text-foreground text-center">
+            Kontaktujte mě přes e-mail nebo telefonní číslo
+          </p>
           <a
             href="mailto:vojtechbarton2004@gmail.com"
-            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            className="flex items-center gap-2 text-base font-semibold text-primary hover:underline transition-colors"
           >
-            <Mail className="w-4 h-4" />
+            <Mail className="w-5 h-5" />
             vojtechbarton2004@gmail.com
           </a>
           <a
             href="tel:+420775133711"
-            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            className="flex items-center gap-2 text-base font-semibold text-primary hover:underline transition-colors"
           >
-            <Phone className="w-4 h-4" />
+            <Phone className="w-5 h-5" />
             +420 775 133 711
           </a>
         </div>
