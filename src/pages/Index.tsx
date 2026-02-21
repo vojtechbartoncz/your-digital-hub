@@ -46,11 +46,11 @@ const Index = () => {
       <div className="w-full max-w-md flex flex-col items-center gap-8">
         {/* Profile */}
         <div className="flex flex-col items-center gap-4">
-          <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20">
+          <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20 my-0 mx-0 px-0">
             <img
               alt="Vojtěch Bartoň"
-              className="w-full h-full object-cover object-top border-secondary-foreground border-0 border-solid rounded-md shadow opacity-80"
-              src="/lovable-uploads/cf567b53-7d19-4c40-b314-08e0b324664c.png" />
+              className="w-full h-full object-cover object-top border-secondary-foreground border-0 border-solid rounded-md shadow opacity-80" src="/lovable-uploads/be687977-e974-4b14-8dbc-bbf03509c14f.png" />
+
 
           </div>
           <div className="text-center">
