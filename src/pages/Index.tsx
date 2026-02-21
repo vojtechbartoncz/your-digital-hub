@@ -1,4 +1,4 @@
-import { Headphones, Globe, MessageCircle, Gem, Instagram, Youtube } from "lucide-react";
+import { Headphones, Globe, MessageCircle, Gem, Instagram, Youtube, Mail, Phone } from "lucide-react";
 
 const links = [
 {
@@ -111,6 +111,24 @@ const Index = () => {
               <s.icon className="w-5 h-5" />
             </a>
           )}
+        </div>
+
+        {/* Contact */}
+        <div className="flex flex-col items-center gap-2 text-sm">
+          <a
+            href="mailto:vojtechbarton2004@gmail.com"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Mail className="w-4 h-4" />
+            vojtechbarton2004@gmail.com
+          </a>
+          <a
+            href="tel:+420775133711"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Phone className="w-4 h-4" />
+            +420 775 133 711
+          </a>
         </div>
 
         {/* Footer */}
