@@ -1,24 +1,29 @@
-import { Headphones, Globe, MessageCircle, Instagram, Youtube } from "lucide-react";
-import profileImg from "@/assets/profile.jpeg";
+import { Headphones, Globe, MessageCircle, Gem, Instagram, Youtube } from "lucide-react";
 
 const links = [
 {
-  title: "Podcast",
-  description: "Poslechni si mé epizody",
-  url: "https://www.youtube.com/watch?v=b5vrTFtoz2U&list=PLkOQbECU51UsJ7UmKFzwvm_kb9gbNqt_6",
-  icon: Headphones
+  title: "Marketingová Agentura @boombrand_cz 💣",
+  description: "Strategie, branding & growth",
+  url: "https://www.instagram.com/boombrand_cz/",
+  icon: Globe
 },
 {
-  title: "Sebevědomá komunikace",
-  description: "Komunikační & prezentační dovednosti",
+  title: "Komunita Podnikatelů @joinbru 💎",
+  description: "Networking & mastermind",
+  url: "https://www.instagram.com/joinbru/",
+  icon: Gem
+},
+{
+  title: "Komunikační a Prezentační Dovednosti 🤝",
+  description: "Sebevědomá komunikace",
   url: "https://www.sebevedoma-komunikace.cz/",
   icon: MessageCircle
 },
 {
-  title: "Boombrand",
-  description: "Marketingová agentura",
-  url: "https://www.instagram.com/boombrand_cz/",
-  icon: Globe
+  title: "Podcast @talktowin_podcast 🎙️",
+  description: "Poslechni si mé epizody",
+  url: "https://www.youtube.com/watch?v=b5vrTFtoz2U&list=PLkOQbECU51UsJ7UmKFzwvm_kb9gbNqt_6",
+  icon: Headphones
 }];
 
 
@@ -41,12 +46,12 @@ const Index = () => {
       <div className="w-full max-w-md flex flex-col items-center gap-8">
         {/* Profile */}
         <div className="flex flex-col items-center gap-4">
-          <div className="w-28 h-28 rounded-full overflow-hidden ring-4 ring-primary/20 shadow-lg">
+          <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20">
             <img
-
               alt="Vojtěch Bartoň"
-              className="w-full h-full object-cover object-top" src="/lovable-uploads/cf567b53-7d19-4c40-b314-08e0b324664c.png" />
-
+              className="w-full h-full object-cover object-top"
+              src="/lovable-uploads/cf567b53-7d19-4c40-b314-08e0b324664c.png"
+            />
           </div>
           <div className="text-center">
             <h1 className="text-2xl font-bold tracking-tight text-foreground">
