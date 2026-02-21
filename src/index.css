@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap");
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -18,7 +24,7 @@
     --primary: 30 100% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 100% 45%;
+    --secondary: 215 19.3182% 34.5098%;
     --secondary-foreground: 0 0% 8%;
 
     --muted: 0 0% 96%;
@@ -44,6 +50,9 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-serif: "Source Serif Pro", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    --font-mono: "Cascadia Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .dark {
@@ -83,6 +92,10 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-serif: "Source Serif Pro", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    --font-mono: "Cascadia Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    --radius: 0.75rem;
   }
 }
 
