@@ -3,7 +3,7 @@ import { Headphones, Globe, MessageCircle, Gem, Instagram, Youtube, Mail, Phone 
 const links = [
 {
   title: "Marketingová Agentura @boombrand_cz 💣",
-  description: "Strategie, branding & growth",
+  description: "Budování osobních a firemních značek na sociálních sítích",
   url: "https://www.instagram.com/boombrand_cz/",
   icon: Globe
 },
