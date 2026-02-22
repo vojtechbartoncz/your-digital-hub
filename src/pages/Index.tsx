@@ -46,7 +46,7 @@ const Index = () => {
       <div className="w-full max-w-md flex flex-col items-center gap-8">
         {/* Profile */}
         <div className="flex flex-col items-center gap-4 opacity-0 animate-scale-fade" style={{ animationDelay: '0.1s' }}>
-          <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20 border-2 border-solid border-secondary-foreground">
+          <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/40 shadow-xl shadow-primary/20 border-[3px] border-solid border-secondary-foreground">
             <img
               alt="Vojtěch Bartoň"
               className="w-full h-full object-cover object-top" src="/lovable-uploads/be687977-e974-4b14-8dbc-bbf03509c14f.png" />
