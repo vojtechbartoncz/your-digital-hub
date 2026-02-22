@@ -35,7 +35,7 @@ const socials = [
 },
 {
   icon: Youtube,
-  url: "https://www.youtube.com/watch?v=b5vrTFtoz2U&list=PLkOQbECU51UsJ7UmKFzwvm_kb9gbNqt_6",
+  url: "https://www.youtube.com/@vojtabarton",
   label: "YouTube"
 }];
 
