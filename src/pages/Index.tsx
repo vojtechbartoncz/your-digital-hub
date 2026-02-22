@@ -129,7 +129,7 @@ const Index = () => {
         </div>
 
         {/* Footer */}
-        <p className="text-xs tracking-wide text-secondary-foreground opacity-0 animate-fade-up" style={{ animationDelay: '1s' }}>
+        <p className="text-xs tracking-wide text-secondary-foreground opacity-0 animate-fade-up font-sans" style={{ animationDelay: '1s' }}>
           © {new Date().getFullYear()} Vojtěch Bartoň
         </p>
       </div>
