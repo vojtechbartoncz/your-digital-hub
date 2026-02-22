@@ -56,7 +56,7 @@ const Index = () => {
               Vojtěch Bartoň
             </h1>
             <p className="mt-1 text-secondary-foreground text-base font-mono font-extrabold">
-              Marketingová agentura · Komunita podnikatelů · Komunikační a prezentační dovednosti · Podcast       
+              Marketingová agentura 💣 · Komunita podnikatelů 💎 · Komunikační a prezentační dovednosti 🤝 · Podcast 🎙️       
             </p>
           </div>
         </div>
