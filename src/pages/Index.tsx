@@ -9,7 +9,7 @@ const links = [
 },
 {
   title: "Komunita Podnikatelů @joinbru 💎",
-  description: "Networking & mastermind",
+  description: "Networking a eventy",
   url: "https://www.instagram.com/joinbru/",
   icon: Gem
 },
