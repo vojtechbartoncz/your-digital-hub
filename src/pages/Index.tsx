@@ -15,7 +15,7 @@ const links = [
 },
 {
   title: "Komunikační a Prezentační Dovednosti 🤝",
-  description: "Sebevědomá komunikace",
+  description: "Sebevědomá komunikace jako nástroj pro šťastnější život",
   url: "https://www.sebevedoma-komunikace.cz/",
   icon: MessageCircle
 },
