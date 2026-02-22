@@ -21,7 +21,7 @@ const links = [
 },
 {
   title: "Podcast @talktowin_podcast 🎙️",
-  description: "Poslechni si epizody se zajímavýho hosty o jejich cestě a komunikačních dovednostech",
+  description: "Poslechni si epizody se zajímavými lidmi",
   url: "https://www.youtube.com/watch?v=b5vrTFtoz2U&list=PLkOQbECU51UsJ7UmKFzwvm_kb9gbNqt_6",
   icon: Headphones
 }];
