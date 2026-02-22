@@ -112,7 +112,7 @@ const Index = () => {
         {/* Contact */}
         <div className="w-full rounded-xl bg-primary/10 px-6 py-5 flex flex-col items-center gap-3 border-2 border-solid border-secondary-foreground opacity-0 animate-fade-up" style={{ animationDelay: '0.9s' }}>
           <p className="text-base font-bold text-foreground font-mono text-center">
-            Kontaktujte mě přes e-mail nebo telefonní číslo
+            Kontaktuj mě přes e-mail nebo telefonní číslo
           </p>
           <a
             href="mailto:vojtechbarton2004@gmail.com"
