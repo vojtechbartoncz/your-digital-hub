@@ -30,7 +30,7 @@ const links = [
 const socials = [
 {
   icon: Instagram,
-  url: "https://www.instagram.com/boombrand_cz/",
+  url: "https://www.instagram.com/vojta__barton/",
   label: "Instagram"
 },
 {
